@@ -8,7 +8,7 @@ Satışlarda kampanya entegrasyonunu simule ettik (PromotionManager - GameManage
 
 
 # Eklemiş Olduğum Kütüphaneler
-Microsoft.Extensions.DependencyInjection
+Microsoft.Extensions.DependencyInjection.
 Business ve Console Yüklü Olan Kütüphaneler : Microsoft.Extensions.DependencyInjection
 Kütüphanesini kurdum Çünkü MVC Projesinde Başka Türlü Dependency kullanıyorduk ama Bilmiyordum Burda Nasıl Kullandığını Bunu İnternetten Bakarak,Anlayarak Yaptım.
 

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Concrete\Promotions\" />
+    <Folder Include="Concrete\Validation\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyGameProject.DataAccess\MyGameProject.DataAccess.csproj" />
+    <ProjectReference Include="..\MyGameProject.Entities\MyGameProject.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

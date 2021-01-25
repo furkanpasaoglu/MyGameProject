@@ -18,6 +18,32 @@ Microsoft.Extensions.DependencyInjection
 * *Business ve Console Yüklü Olan Kütüphaneler : Microsoft.Extensions.DependencyInjection*
 * *Kütüphanesini kurdum Çünkü MVC Projesinde Başka Türlü Dependency kullanıyorduk ama Bilmiyordum Burda Nasıl Kullandığını Bunu İnternetten Bakarak,Anlayarak Yaptım.*
 
+## Oyuncu ve Oyun
+![Oyuncu ve Oyun](https://i.imgur.com/bmolxQw.png)
+
+## Oyuncu Ekleme
+![Oyuncu İşlemleri](https://i.imgur.com/Ps2SX9C.png)
+
+## Oyuncu Güncelleme
+![Oyuncu İşlemleri](https://i.imgur.com/zo6IkA3.png)
+
+## Oyuncu Silme
+![Oyuncu İşlemleri](https://i.imgur.com/ORz7Onw.png)
+
+## Oyuncu Listeleme
+![Oyuncu İşlemleri](https://i.imgur.com/P3jMZYv.png)
+
+## Oyun Ekleme
+![Oyun İşlemleri](https://i.imgur.com/wboDTMW.png)
+
+## Oyun Güncelleme
+![Oyun İşlemleri](https://i.imgur.com/MOW110m.png)
+
+## Oyun Silme
+![Oyun İşlemleri](https://i.imgur.com/4fDt9UV.png)
+
+## Oyun Listeleme
+![Oyun İşlemleri](https://i.imgur.com/U8PDiMz.png)
 
 
 ## License

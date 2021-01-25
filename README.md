@@ -13,8 +13,13 @@
 
 # Eklemiş Olduğum Kütüphaneler
 ```
-Microsoft.Extensions.DependencyInjection
+PackageManager
+Install-Package Microsoft.Extensions.DependencyInjection -Version 5.0.1
+
+.NET CLI
+dotnet add package Microsoft.Extensions.DependencyInjection --version 5.0.1
 ```
+
 * *Business ve Console Yüklü Olan Kütüphaneler : Microsoft.Extensions.DependencyInjection*
 * *Kütüphanesini kurdum Çünkü MVC Projesinde Başka Türlü Dependency kullanıyorduk ama Bilmiyordum Burda Nasıl Kullandığını Bunu İnternetten Bakarak,Anlayarak Yaptım.*
 

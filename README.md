@@ -8,6 +8,7 @@
 * *Satışlarda kampanya entegrasyonunu simule ettik (PromotionManager - GameManager).*
 
 # Console 
+* *Console Başlığı Tanımladım.*
 * *Console Ekranını Biraz Güzelleştirmeye Çalıştım.*
 
 # Eklemiş Olduğum Kütüphaneler

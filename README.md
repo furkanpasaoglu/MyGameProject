@@ -1,5 +1,5 @@
 # MyGameProject
-
+* *Veritabanı Olmadığı İçin DataAcces Bölümü Business Bölümüne Return etmek zorunda kaldım.*
 * *Kurumsal Mimari Olarak Yapmış Olduğum Bir Ödev.*
 * *Oyuncuların sisteme kayıt olabileceği, bilgilerini güncelleyebileceği, kayıtlarını silebileceği bir ortamı simule ettik.*
 * *Müşteri bilgilerinin doğruluğunu e-devlet sistemlerini kullanarak doğrulama yaptık (Validation).*

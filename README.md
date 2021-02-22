@@ -11,18 +11,6 @@
 * *Console Başlığı Tanımladım.*
 * *Console Ekranını Biraz Güzelleştirmeye Çalıştım.*
 
-# Eklemiş Olduğum Kütüphaneler
-```
-PackageManager
-Install-Package Microsoft.Extensions.DependencyInjection -Version 5.0.1
-
-.NET CLI
-dotnet add package Microsoft.Extensions.DependencyInjection --version 5.0.1
-```
-
-* *Business ve Console Yüklü Olan Kütüphaneler : Microsoft.Extensions.DependencyInjection*
-* *Kütüphanesini kurdum Çünkü MVC Projesinde Başka Türlü Dependency kullanıyorduk ama Bilmiyordum Burda Nasıl Kullandığını Bunu İnternetten Bakarak,Anlayarak Yaptım.*
-
 ## Oyuncu ve Oyun
 ![Oyuncu ve Oyun](https://i.imgur.com/bmolxQw.png)
 

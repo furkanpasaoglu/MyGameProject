@@ -5,7 +5,6 @@ using MyGameProject.Business.Abstract;
 using MyGameProject.Business.Concrete;
 using MyGameProject.Business.Concrete.Promotions;
 using MyGameProject.Business.Concrete.Validation;
-using MyGameProject.DataAccess.Abstract;
 using MyGameProject.DataAccess.Concrete;
 using MyGameProject.Entities.Concrete;
 
@@ -16,13 +15,8 @@ namespace MyGameProject.ConsoleApp
         static void Main(string[] args)
         {
             Console.Title = "Game-Player";
-            //Bunlar Tamamen Implement Dependency Injection olayı.
-            //Mvc de başka türlü kullandığım için burada kullandığımda null geliyor du internetten araştırarak bu sonucu buldum.
-            //Business ve Console Yüklü Olan Kütüphaneler : Microsoft.Extensions.DependencyInjection
-            var container = Program.ConfigureService();
-            var playerService = container.GetRequiredService<IPlayerService>();
-            var gameService = container.GetRequiredService<IGameService>();
-            //////////////////////////////////////////////////////////////////////////
+            IGameService gameService = new GameManager(new GameDal(),new PromotionManager(new ValidationManager()));
+            IPlayerService playerService = new PlayerManager(new PlayerDal(), new ValidationManager());
             Player player1 = new Player
             {
                 PlayerId = 1,
@@ -100,20 +94,6 @@ namespace MyGameProject.ConsoleApp
             gameService.GetList(game1,player1);
             gameService.GetList(game2,player2);
             Console.ReadLine();
-        }
-
-        //DependencyInjection Configure
-        public static IServiceProvider ConfigureService()
-        {
-            var provider = new ServiceCollection()
-                .AddSingleton<IPlayerService, PlayerManager>()
-                .AddSingleton<IPlayerDal, PlayerDal>()
-                .AddSingleton<IValidationService,ValidationManager>()
-                .AddSingleton<IGameService,GameManager>()
-                .AddSingleton<IGameDal,GameDal>()
-                .AddSingleton<IPromotionService,PromotionManager>()
-                .BuildServiceProvider();
-            return provider;
         }
         public static void ColorRed()
         {

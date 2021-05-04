@@ -12,32 +12,32 @@
 * *Console Ekranını Biraz Güzelleştirmeye Çalıştım.*
 
 ## Oyuncu ve Oyun
-![Oyuncu ve Oyun](https://i.imgur.com/bmolxQw.png)
+![oyuncuoyun](https://user-images.githubusercontent.com/16624085/117001714-58151200-aceb-11eb-80c7-b07f6573ffca.png)
 
 ## Oyuncu Ekleme
-![Oyuncu İşlemleri](https://i.imgur.com/Ps2SX9C.png)
+![oyuncuislem](https://user-images.githubusercontent.com/16624085/117001778-6fec9600-aceb-11eb-9b4d-f58da0641b97.png)
 
 ## Oyuncu Güncelleme
-![Oyuncu İşlemleri](https://i.imgur.com/zo6IkA3.png)
+![oyuncuislem1](https://user-images.githubusercontent.com/16624085/117001946-a0343480-aceb-11eb-9c35-1879ff5644db.png)
 
 ## Oyuncu Silme
-![Oyuncu İşlemleri](https://i.imgur.com/ORz7Onw.png)
+![oyuncuislem2](https://user-images.githubusercontent.com/16624085/117002006-b17d4100-aceb-11eb-97e9-cce55ae13d6d.png)
 
 ## Oyuncu Listeleme
-![Oyuncu İşlemleri](https://i.imgur.com/P3jMZYv.png)
+![oyuncuislem3](https://user-images.githubusercontent.com/16624085/117002036-bc37d600-aceb-11eb-9d28-7a3223174032.png)
 
 ## Oyun Ekleme
-![Oyun İşlemleri](https://i.imgur.com/wboDTMW.png)
+![oyuncuislem4](https://user-images.githubusercontent.com/16624085/117002099-cb1e8880-aceb-11eb-930e-468a07cbe796.png)
 
 ## Oyun Güncelleme
-![Oyun İşlemleri](https://i.imgur.com/MOW110m.png)
+![oyuncuislem5](https://user-images.githubusercontent.com/16624085/117002158-dec9ef00-aceb-11eb-96c4-90ac00c6bd95.png)
 
 ## Oyun Silme
-![Oyun İşlemleri](https://i.imgur.com/4fDt9UV.png)
+![oyuncuislem6](https://user-images.githubusercontent.com/16624085/117002218-f2755580-aceb-11eb-8231-9a1a40e630eb.png)
 
 ## Oyun Listeleme
-![Oyun İşlemleri](https://i.imgur.com/U8PDiMz.png)
+![oyuncuislem7](https://user-images.githubusercontent.com/16624085/117002246-fef9ae00-aceb-11eb-8584-d098369ff5f0.png)
 
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## :pencil2:Authors
+* **Furkan Paşaoğlu** - [furkanpasaoglu](https://github.com/furkanpasaoglu)
